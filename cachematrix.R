@@ -29,7 +29,7 @@ cacheSolve <- function(x, ...){
   inv
 }
 
-#To check the output
+#To check the output:
 
 abmatrix <- makeCacheMatrix(matrix(1:4, nrow = 2, ncol = 2))
 abmatrix$get()
